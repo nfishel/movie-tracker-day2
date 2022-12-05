@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Movie Tracker</title>
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>🎬 My Movie/Show Tracker 🍿</h1>
+
+    <input type="text" name="titleInput" id="titleInput" placeholder="Movie/Show Title" autofocus>
+
+<!--  drop down element for the rating -->
+    <select name="ratingDrop" id="ratingDrop">
+      <option value="0" selected disabled># of Stars</option>
+      <option value="5">5 Stars</option>
+      <option value="4">4 Stars</option>
+      <option value="3">3 Stars</option>
+      <option value="2">2 Stars</option>
+      <option value="1">1 Star</option>
+    </select>
+
+    <input type="button" value="Add Movie/Show" id="addBtn">
+
+
+    <div id="results">
+      <div id="leftCol">
+        <h3>Movies</h3>
+      </div>
+      <div id="rightCol">
+        <h3>Rating</h3>
+      </div>
+    </div>
+
+
+    
+  </div>
+  <script src="script.js" defer></script>
+</body>
+
+</html>

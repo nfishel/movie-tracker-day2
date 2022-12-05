@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+#results{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+p{
+  margin-bottom: .5rem;
+  font-size: 1.25rem;
+}
+
+.favorite{
+  color: tomato;
+  font-weight: bold;
+}
+
+
